@@ -2,9 +2,9 @@ name: Astro Project CI
 
 on:
   pull_request:
-    branches: ["*"]
+    branches: ['*']
   push:
-    branches: ["main"]
+    branches: ['main']
 
 jobs:
   build-and-test:
@@ -32,8 +32,11 @@ jobs:
       - name: Install Dependencies
         run: pnpm install
 
-      - name: Run Prettier & Eslint
-        run: pnpm run format lint
+      - name: Check Code Formatting
+        run: pnpm run format
+
+      - name: Lint Code
+        run: pnpm run lint
 
       - name: Build Project
         run: pnpm run build
