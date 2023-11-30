@@ -1,0 +1,34 @@
+{
+  "arrowParens": "always",
+  "semi": true,
+  "tabWidth": 2,
+  "printWidth": 120,
+  "singleQuote": false,
+  "trailingComma": "es5",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "plugins": ["@ianvs/prettier-plugin-sort-imports", "prettier-plugin-astro"],
+  "importOrder": [
+    "<THIRD_PARTY_MODULES>",
+    "^@config$",
+    "^@assets/(.*)$",
+    "^@components/(.*)$",
+    "^@content/(.*)$",
+    "^@layouts/(.*)$",
+    "^@pages/(.*)$",
+    "^@styles/(.*)$",
+    "^@utils/(.*)$",
+    "^@/(.*)$",
+    "^.[./].*",
+    ""
+  ],
+
+  "overrides": [
+    {
+      "files": "*.astro",
+      "options": {
+        "parser": "astro"
+      }
+    }
+  ]
+}
