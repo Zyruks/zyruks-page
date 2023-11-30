@@ -1,7 +1,7 @@
 module.exports = {
-  extends: ['plugin:prettier/recommended'],
+  extends: ['plugin:astro/recommended', 'plugin:prettier/recommended'],
   plugins: ['prettier'],
-
+  parser: '@typescript-eslint/parser',
   overrides: [
     {
       files: ['*.astro'],
@@ -16,36 +16,12 @@ module.exports = {
 
       parserOptions: {
         parser: '@typescript-eslint/parser',
-        ecmaVersion: 2020,
         extraFileExtensions: ['.astro'],
-        sourceType: 'module',
       },
       rules: {
         'astro/no-conflict-set-directives': 'error',
         'astro/no-unused-define-vars-in-style': 'error',
       },
-    },
-    {
-      files: ['*.ts'],
-      parser: '@typescript-eslint/parser',
-    },
-    {
-      files: ['*.js'],
-      parserOptions: {
-        ecmaVersion: 2020,
-        sourceType: 'module',
-      },
-    },
-    {
-      files: ['**/*.astro/*.js', '*.astro/*.js'],
-      env: {
-        browser: true,
-        es2020: true,
-      },
-      parserOptions: {
-        sourceType: 'module',
-      },
-      rules: {},
     },
   ],
 };
