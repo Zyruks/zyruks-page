@@ -7,7 +7,6 @@
 
 # Security Policy
 
-
 ## 🛡️ Reporting a Vulnerability
 
 We take security vulnerabilities very seriously. If you discover a vulnerability in our project, please let us know as soon as possible so we can take steps to fix it.
