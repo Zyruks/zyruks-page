@@ -1,49 +1,49 @@
 module.exports = {
-  extends: ["plugin:prettier/recommended"],
-  plugins: ["prettier"],
+  extends: ['plugin:prettier/recommended'],
+  plugins: ['prettier'],
 
   overrides: [
     {
-      files: ["*.astro"],
-      plugins: ["astro"],
+      files: ['*.astro'],
+      plugins: ['astro'],
       env: {
         node: true,
-        "astro/astro": true,
+        'astro/astro': true,
         es2020: true,
       },
 
-      parser: "astro-eslint-parser",
+      parser: 'astro-eslint-parser',
 
       parserOptions: {
-        parser: "@typescript-eslint/parser",
+        parser: '@typescript-eslint/parser',
         ecmaVersion: 2020,
-        extraFileExtensions: [".astro"],
-        sourceType: "module",
+        extraFileExtensions: ['.astro'],
+        sourceType: 'module',
       },
       rules: {
-        "astro/no-conflict-set-directives": "error",
-        "astro/no-unused-define-vars-in-style": "error",
+        'astro/no-conflict-set-directives': 'error',
+        'astro/no-unused-define-vars-in-style': 'error',
       },
     },
     {
-      files: ["*.ts"],
-      parser: "@typescript-eslint/parser",
+      files: ['*.ts'],
+      parser: '@typescript-eslint/parser',
     },
     {
-      files: ["*.js"],
+      files: ['*.js'],
       parserOptions: {
         ecmaVersion: 2020,
-        sourceType: "module",
+        sourceType: 'module',
       },
     },
     {
-      files: ["**/*.astro/*.js", "*.astro/*.js"],
+      files: ['**/*.astro/*.js', '*.astro/*.js'],
       env: {
         browser: true,
         es2020: true,
       },
       parserOptions: {
-        sourceType: "module",
+        sourceType: 'module',
       },
       rules: {},
     },
