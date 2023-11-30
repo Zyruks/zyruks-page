@@ -14,7 +14,8 @@
     "astro": "astro",
     "prepare": "npx husky install",
     "clean": "git clean -xdf node_modules",
-    "format": "prettier --write \"**/*.{js,cjs,mjs,ts,tsx,md,json}\" --ignore-path .gitignore",
+    "format": "prettier --check \"**/*.{js,cjs,mjs,ts,tsx,md,json}\" --ignore-path .gitignore",
+    "format:fix": "prettier --write \"**/*.{js,cjs,mjs,ts,tsx,md,json}\" --ignore-path .gitignore",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "type-check": "astro-check"
