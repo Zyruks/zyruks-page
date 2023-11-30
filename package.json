@@ -18,7 +18,8 @@
     "format:fix": "prettier --write \"**/*.{js,cjs,mjs,ts,tsx,md,json,astro}\" --ignore-path .gitignore",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "type-check": "astro-check"
+    "type-check": "astro-check",
+    "semantic-release": "semantic-release"
   },
   "dependencies": {
     "@astrojs/check": "^0.3.1",
