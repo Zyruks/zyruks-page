@@ -15,7 +15,7 @@ jobs:
       contents: write # to be able to publish a GitHub release
       issues: write # to be able to comment on released issues
       pull-requests: write # to be able to comment on released pull requests
-      id-token: write # to enable use of OIDC for npm provenance
+      id-token: write # to enable use of OIDC for pnpm provenance
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -26,11 +26,11 @@ jobs:
         with:
           node-version: 'lts/*'
       - name: Install dependencies
-        run: npm clean-install
+        run: pnpm install
       - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
-        run: npm audit signatures
+        run: pnpm audit signatures
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npx semantic-release
+        run: pnpm run semantic-release
 # How to use this action https://semantic-release.gitbook.io/semantic-release/recipes/ci-configurations/github-actions
