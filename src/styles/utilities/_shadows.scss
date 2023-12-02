@@ -1,0 +1,8 @@
+@use '@styles/abstracts' as *;
+
+@each $shadow-name, $shadow-value in $shadow {
+  /* stylelint-disable-next-line plugin/stylelint-selector-no-empty */
+  .#{$shadow-name} {
+    box-shadow: $shadow-value;
+  }
+}

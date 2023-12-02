@@ -1,0 +1,7 @@
+@use '@styles/abstracts' as *;
+
+@each $mask-edge-name, $mask-edge-value in $mask-edges {
+  .mask-#{$mask-edge-name} {
+    mask: $mask-edge-value;
+  }
+}

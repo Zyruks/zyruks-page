@@ -1,0 +1,7 @@
+@use '@styles/abstracts' as *;
+
+@each $aspect-name, $aspect-value in $aspect-ratios {
+  .aspect-#{$aspect-name} {
+    aspect-ratio: $aspect-value;
+  }
+}

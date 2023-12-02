@@ -1,0 +1,56 @@
+$border-sizes: (
+  border-1: var(--border-size-1),
+  border-2: var(--border-size-2),
+  border-3: var(--border-size-3),
+  border-4: var(--border-size-4),
+  border-5: var(--border-size-5),
+);
+
+// Border Radius
+$border-radius: (
+  radius-1: var(--radius-1),
+  radius-2: var(--radius-2),
+  radius-3: var(--radius-3),
+  radius-4: var(--radius-4),
+  radius-5: var(--radius-5),
+  radius-6: var(--radius-6),
+  radius-round: var(--radius-round),
+  radius-blob-1: var(--radius-blob-1),
+  radius-blob-2: var(--radius-blob-2),
+  radius-blob-3: var(--radius-blob-3),
+  radius-blob-4: var(--radius-blob-4),
+  radius-blob-5: var(--radius-blob-5),
+  radius-conditional-1: var(--radius-conditional-1),
+  radius-conditional-2: var(--radius-conditional-2),
+  radius-conditional-3: var(--radius-conditional-3),
+  radius-conditional-4: var(--radius-conditional-4),
+  radius-conditional-5: var(--radius-conditional-5),
+  radius-conditional-6: var(--radius-conditional-6),
+);
+
+// borders
+$border-1: var(--border-size-1);
+$border-2: var(--border-size-2);
+$border-3: var(--border-size-3);
+$border-4: var(--border-size-4);
+$border-5: var(--border-size-5);
+
+// Border Radius
+$border-radius-1: var(--radius-1);
+$border-radius-2: var(--radius-2);
+$border-radius-3: var(--radius-3);
+$border-radius-4: var(--radius-4);
+$border-radius-5: var(--radius-5);
+$border-radius-6: var(--radius-6);
+$border-radius-round: var(--radius-round);
+$border-radius-blob-1: var(--radius-blob-1);
+$border-radius-blob-2: var(--radius-blob-2);
+$border-radius-blob-3: var(--radius-blob-3);
+$border-radius-blob-4: var(--radius-blob-4);
+$border-radius-blob-5: var(--radius-blob-5);
+$border-radius-conditional-1: var(--radius-conditional-1);
+$border-radius-conditional-2: var(--radius-conditional-2);
+$border-radius-conditional-3: var(--radius-conditional-3);
+$border-radius-conditional-4: var(--radius-conditional-4);
+$border-radius-conditional-5: var(--radius-conditional-5);
+$border-radius-conditional-6: var(--radius-conditional-6);

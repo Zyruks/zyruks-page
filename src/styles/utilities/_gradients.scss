@@ -1,0 +1,8 @@
+@use '@styles/abstracts' as *;
+
+@each $gradient-name, $gradient-value in $gradients {
+  /* stylelint-disable-next-line plugin/stylelint-selector-no-empty */
+  .#{$gradient-name} {
+    background-image: $gradient-value;
+  }
+}

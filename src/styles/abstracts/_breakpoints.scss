@@ -1,0 +1,104 @@
+$breakpoints: (
+  // Smallest breakpoints
+  xxs-only: '--xxs-only',
+  // up to 240px
+  xxs-n-above: '--xxs-n-above',
+  // from 240px
+  xxs-n-below: '--xxs-n-below',
+  // up to 239px
+  xxs-phone: '--xxs-phone',
+
+  // up to 240px in portrait
+  // Extra small breakpoints
+  xs-only: '--xs-only',
+  // from 240px to 360px
+  xs-n-above: '--xs-n-above',
+  // from 360px
+  xs-n-below: '--xs-n-below',
+  // up to 359px
+  xs-phone: '--xs-phone',
+
+  // from 240px to 360px in portrait
+  // Small breakpoints
+  sm-only: '--sm-only',
+  // from 360px to 480px
+  sm-n-above: '--sm-n-above',
+  // from 480px
+  sm-n-below: '--sm-n-below',
+  // up to 479px
+  sm-phone: '--sm-phone',
+
+  // from 360px to 480px in portrait
+  // Medium breakpoints
+  md-only: '--md-only',
+  // from 480px to 768px
+  md-n-above: '--md-n-above',
+  // from 768px
+  md-n-below: '--md-n-below',
+  // up to 767px
+  md-phone: '--md-phone',
+
+  // from 480px to 768px in portrait
+  // Large breakpoints
+  lg-only: '--lg-only',
+  // from 768px to 1024px
+  lg-n-above: '--lg-n-above',
+  // from 1024px
+  lg-n-below: '--lg-n-below',
+  // up to 1023px
+  lg-phone: '--lg-phone',
+
+  // from 768px to 1024px in portrait
+  // Extra large breakpoints
+  xl-only: '--xl-only',
+  // from 1024px to 1440px
+  xl-n-above: '--xl-n-above',
+  // from 1440px
+  xl-n-below: '--xl-n-below',
+
+  // up to 1439px
+  // Extra extra large breakpoints
+  xxl-only: '--xxl-only',
+  // from 1440px to 1920px
+  xxl-n-above: '--xxl-n-above',
+  // from 1920px
+  xxl-n-below: '--xxl-n-below',
+
+  // up to 1919px
+  // Custom media queries
+  motionok: '--motionOK',
+  // prefers-reduced-motion: no-preference
+  motionnotok: '--motionNotOK',
+  // prefers-reduced-motion: reduce
+  opacityok: '--opacityOK',
+  // prefers-reduced-transparency: no-preference
+  opacitynotok: '--opacityNotOK',
+  // prefers-reduced-transparency: reduce
+  usedataok: '--useDataOK',
+  // prefers-reduced-data: no-preference
+  usedatanotok: '--useDataNotOK',
+  // prefers-reduced-data: reduce
+  osdark: '--OSdark',
+  // prefers-color-scheme: dark
+  oslight: '--OSlight',
+  // prefers-color-scheme: light
+  highcontrast: '--highContrast',
+  // prefers-contrast: more
+  lowcontrast: '--lowContrast',
+  // prefers-contrast: less
+  portrait: '--portrait',
+  // orientation: portrait
+  landscape: '--landscape',
+  // orientation: landscape
+  hdcolor: '--HDcolor',
+  // dynamic-range: high
+  touch: '--touch',
+  // hover: none and pointer: coarse
+  stylus: '--stylus',
+  // hover: none and pointer: fine
+  pointer: '--pointer',
+  // hover and pointer: coarse
+  mouse: '--mouse' // hover and pointer: fine
+);
+
+// For more info on these breakpoints, check https://open-props.style/#media-queries

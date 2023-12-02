@@ -1,0 +1,10 @@
+@use 'sass:meta';
+@use 'sass:math';
+@use 'sass:map';
+@use 'breakpoints' as *;
+
+@mixin breakpoint($name) {
+  @media (#{map-get($breakpoints, $name)}) {
+    @content;
+  }
+}

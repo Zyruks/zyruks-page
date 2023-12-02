@@ -1,0 +1,78 @@
+@use '@styles/abstracts' as *;
+
+// Animation Classes
+@each $animation-name, $animation-value in $animations {
+  .animate-#{$animation-name} {
+    animation: $animation-value forwards;
+  }
+}
+
+// Duration and Delay Classes
+@each $durations-name, $durations-value in $durations {
+  .animate-duration-#{$durations-name} {
+    animation-duration: $durations-value;
+  }
+
+  .animate-delay-#{$durations-name} {
+    animation-delay: $durations-value;
+  }
+
+  .transition-duration-#{$durations-name} {
+    transition-duration: $durations-value;
+  }
+
+  .transition-delay-#{$durations-name} {
+    transition-delay: $durations-value;
+  }
+}
+
+// Animation Directions
+.animate-normal {
+  animation-direction: normal;
+}
+
+.animate-reverse {
+  animation-direction: reverse;
+}
+
+.animate-alternate {
+  animation-direction: alternate;
+}
+
+.animate-alternate-reverse {
+  animation-direction: alternate-reverse;
+}
+
+// Fill Mode Classes
+.animate-fill-none {
+  animation-fill-mode: none;
+}
+
+.animate-fill-forwards {
+  animation-fill-mode: forwards;
+}
+
+.animate-fill-backwards {
+  animation-fill-mode: backwards;
+}
+
+.animate-fill-both {
+  animation-fill-mode: both;
+}
+
+// Iteration Count Classes
+.animate-infinite {
+  animation-iteration-count: infinite;
+}
+
+.animate-once {
+  animation-iteration-count: 1;
+}
+
+.animate-twice {
+  animation-iteration-count: 2;
+}
+
+.animate-thrice {
+  animation-iteration-count: 3;
+}

@@ -1,0 +1,36 @@
+@use '@styles/abstracts' as *;
+
+// Utility classes for font weights
+@each $weight-key, $weight-value in $font-weights {
+  .font-weight-#{$weight-key} {
+    font-weight: $weight-value;
+  }
+}
+
+// Utility classes for font line heights
+@each $line-height-key, $line-height-value in $font-lineheights {
+  .leading-#{$line-height-key} {
+    line-height: $line-height-value;
+  }
+}
+
+// Utility classes for font letter spacing
+@each $letter-spacing-key, $letter-spacing-value in $font-letterspacing {
+  .tracking-#{$letter-spacing-key} {
+    letter-spacing: $letter-spacing-value;
+  }
+}
+
+// Utility classes for font sizes
+@each $size-key, $size-value in $font-sizes {
+  .text-#{$size-key} {
+    font-size: $size-value;
+  }
+}
+
+// Utility classes for fluid font sizes
+@each $fluid-size-key, $fluid-size-value in $font-fluid-sizes {
+  .text-fluid-#{$fluid-size-key} {
+    font-size: $fluid-size-value;
+  }
+}

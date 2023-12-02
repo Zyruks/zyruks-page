@@ -1,0 +1,11 @@
+@use '@styles/abstracts' as *;
+
+@each $easing-name, $easing-value in $easing {
+  .ease-#{$easing-name} {
+    animation-timing-function: $easing-value;
+  }
+
+  .transition-#{$easing-name} {
+    transition-timing-function: $easing-value;
+  }
+}

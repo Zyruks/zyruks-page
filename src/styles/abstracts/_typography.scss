@@ -1,0 +1,110 @@
+// Font Families
+$font-sans: var(--font-sans);
+$font-serif: var(--font-serif);
+$font-mono: var(--font-mono);
+
+// Font Weights
+$font-weights: (
+  1: var(--font-weight-1),
+  2: var(--font-weight-2),
+  3: var(--font-weight-3),
+  4: var(--font-weight-4),
+  5: var(--font-weight-5),
+  6: var(--font-weight-6),
+  7: var(--font-weight-7),
+  8: var(--font-weight-8),
+  9: var(--font-weight-9),
+);
+
+// Font Line Heights
+$font-lineheights: (
+  '00': var(--font-lineheight-00),
+  '0': var(--font-lineheight-0),
+  1: var(--font-lineheight-1),
+  2: var(--font-lineheight-2),
+  3: var(--font-lineheight-3),
+  4: var(--font-lineheight-4),
+  5: var(--font-lineheight-5),
+);
+
+// Font Letter Spacing
+$font-letterspacing: (
+  0: var(--font-letterspacing-0),
+  1: var(--font-letterspacing-1),
+  2: var(--font-letterspacing-2),
+  3: var(--font-letterspacing-3),
+  4: var(--font-letterspacing-4),
+  5: var(--font-letterspacing-5),
+  6: var(--font-letterspacing-6),
+  7: var(--font-letterspacing-7),
+);
+
+// Font Sizes
+$font-sizes: (
+  '00': var(--font-size-00),
+  0: var(--font-size-0),
+  1: var(--font-size-1),
+  2: var(--font-size-2),
+  3: var(--font-size-3),
+  4: var(--font-size-4),
+  5: var(--font-size-5),
+  6: var(--font-size-6),
+  7: var(--font-size-7),
+  8: var(--font-size-8),
+);
+
+// Fluid Font Sizes
+$font-fluid-sizes: (
+  0: var(--font-size-fluid-0),
+  1: var(--font-size-fluid-1),
+  2: var(--font-size-fluid-2),
+  3: var(--font-size-fluid-3),
+);
+
+// Font Weights
+$font-thin: var(--font-weight-1);
+$font-extralight: var(--font-weight-2);
+$font-light: var(--font-weight-3);
+$font-normal: var(--font-weight-4);
+$font-medium: var(--font-weight-5);
+$font-semibold: var(--font-weight-6);
+$font-bold: var(--font-weight-7);
+$font-extrabold: var(--font-weight-8);
+$font-black: var(--font-weight-9);
+
+// Font Line Heights
+$leading-00: var(--font-lineheight-00);
+$leading-0: var(--font-lineheight-0);
+$leading-1: var(--font-lineheight-1);
+$leading-2: var(--font-lineheight-2);
+$leading-3: var(--font-lineheight-3);
+$leading-4: var(--font-lineheight-4);
+$leading-5: var(--font-lineheight-5);
+
+// Font Letter Spacing
+$tracking-0: var(--font-letterspacing-0);
+$tracking-1: var(--font-letterspacing-1);
+$tracking-2: var(--font-letterspacing-2);
+$tracking-3: var(--font-letterspacing-3);
+$tracking-4: var(--font-letterspacing-4);
+$tracking-5: var(--font-letterspacing-5);
+$tracking-6: var(--font-letterspacing-6);
+$tracking-7: var(--font-letterspacing-7);
+
+// Font Sizes
+$text-00: var(--font-size-00);
+$text-0: var(--font-size-0);
+$text-1: var(--font-size-1);
+$text-2: var(--font-size-2);
+$text-3: var(--font-size-3);
+$text-4: var(--font-size-4);
+$text-5: var(--font-size-5);
+$text-6: var(--font-size-6);
+$text-7: var(--font-size-7);
+$text-8: var(--font-size-8);
+
+// Fluid Font Sizes
+$text-fluid-0: var(--font-size-fluid-0);
+$text-fluid-1: var(--font-size-fluid-1);
+$text-fluid-2: var(--font-size-fluid-2);
+$text-fluid-3: var(--font-size-fluid-3);
