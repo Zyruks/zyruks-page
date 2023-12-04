@@ -1,41 +1,66 @@
 $animations: (
-  fade-in: var(--animation-fade-in),
-  fade-in-bloom: var(--animation-fade-in-bloom),
-  fade-out: var(--animation-fade-out),
-  fade-out-bloom: var(--animation-fade-out-bloom),
-  scale-up: var(--animation-scale-up),
-  scale-down: var(--animation-scale-down),
-  slide-out-up: var(--animation-slide-out-up),
-  slide-out-down: var(--animation-slide-out-down),
-  slide-out-right: var(--animation-slide-out-right),
-  slide-out-left: var(--animation-slide-out-left),
-  slide-in-up: var(--animation-slide-in-up),
-  slide-in-down: var(--animation-slide-in-down),
-  slide-in-right: var(--animation-slide-in-right),
-  slide-in-left: var(--animation-slide-in-left),
-  shake-x: var(--animation-shake-x),
-  shake-y: var(--animation-shake-y),
-  spin: var(--animation-spin),
-  ping: var(--animation-ping),
-  blink: var(--animation-blink),
-  float: var(--animation-float),
-  bounce: var(--animation-bounce),
-  pulse: var(--animation-pulse),
+  "fade-in": var(--animation-fade-in),
+  "fade-in-bloom": var(--animation-fade-in-bloom),
+  "fade-out": var(--animation-fade-out),
+  "fade-out-bloom": var(--animation-fade-out-bloom),
+  "scale-up": var(--animation-scale-up),
+  "scale-down": var(--animation-scale-down),
+  "slide-out-up": var(--animation-slide-out-up),
+  "slide-out-down": var(--animation-slide-out-down),
+  "slide-out-right": var(--animation-slide-out-right),
+  "slide-out-left": var(--animation-slide-out-left),
+  "slide-in-up": var(--animation-slide-in-up),
+  "slide-in-down": var(--animation-slide-in-down),
+  "slide-in-right": var(--animation-slide-in-right),
+  "slide-in-left": var(--animation-slide-in-left),
+  "shake-x": var(--animation-shake-x),
+  "shake-y": var(--animation-shake-y),
+  "spin": var(--animation-spin),
+  "ping": var(--animation-ping),
+  "blink": var(--animation-blink),
+  "float": var(--animation-float),
+  "bounce": var(--animation-bounce),
+  "pulse": var(--animation-pulse),
 );
 
-// Durations
+
+/* Durations */
 $durations: (
-  0: 0ms,
-  1: 100ms,
-  2: 200ms,
-  3: 300ms,
-  4: 400ms,
-  5: 500ms,
-  6: 600ms,
-  7: 700ms,
-  8: 800ms,
-  9: 900ms,
-  1s: 1000ms,
-  2s: 2000ms,
-  3s: 3000ms,
+  "none": 0ms,
+  100: 100ms,
+  200: 200ms,
+  300: 300ms,
+  400: 400ms,
+  500: 500ms,
+  600: 600ms,
+  700: 700ms,
+  800: 800ms,
+  900: 900ms,
+  1s: 1s,
+  2s: 2s,
+  3s: 3s,
 );
+
+/* Animations Variables */
+$animate-fade-in: var(--animation-fade-in);
+$animate-fade-in-bloom: var(--animation-fade-in-bloom);
+$animate-fade-out: var(--animation-fade-out);
+$animate-fade-out-bloom: var(--animation-fade-out-bloom);
+$animate-scale-up: var(--animation-scale-up);
+$animate-scale-down: var(--animation-scale-down);
+$animate-slide-out-up: var(--animation-slide-out-up);
+$animate-slide-out-down: var(--animation-slide-out-down);
+$animate-slide-out-right: var(--animation-slide-out-right);
+$animate-slide-out-left: var(--animation-slide-out-left);
+$animate-slide-in-up: var(--animation-slide-in-up);
+$animate-slide-in-down: var(--animation-slide-in-down);
+$animate-slide-in-right: var(--animation-slide-in-right);
+$animate-slide-in-left: var(--animation-slide-in-left);
+$animate-shake-x: var(--animation-shake-x);
+$animate-shake-y: var(--animation-shake-y);
+$animate-spin: var(--animation-spin);
+$animate-ping: var(--animation-ping);
+$animate-blink: var(--animation-blink);
+$animate-float: var(--animation-float);
+$animate-bounce: var(--animation-bounce);
+$animate-pulse: var(--animation-pulse);

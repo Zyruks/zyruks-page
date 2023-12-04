@@ -1,9 +1,9 @@
 @use '@styles/abstracts' as *;
 
 .heading-1 {
-  color: $jungle-2;
+  color: $jungle-200;
   font-weight: $font-bold;
-  font-size: $text-7;
+  font-size: $text-5xl;
   font-family: $font-sans;
   line-height: $leading-4;
   letter-spacing: inherit;
@@ -18,5 +18,5 @@
 
 .heading-3 {
   font-weight:  $font-normal;
-  font-size: rem(32);
+  font-size: 2rem;
 }

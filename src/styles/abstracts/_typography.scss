@@ -5,16 +5,17 @@ $font-mono: var(--font-mono);
 
 // Font Weights
 $font-weights: (
-  1: var(--font-weight-1),
-  2: var(--font-weight-2),
-  3: var(--font-weight-3),
-  4: var(--font-weight-4),
-  5: var(--font-weight-5),
-  6: var(--font-weight-6),
-  7: var(--font-weight-7),
-  8: var(--font-weight-8),
-  9: var(--font-weight-9),
+  'thin': var(--font-weight-1),
+  'extralight': var(--font-weight-2),
+  'light': var(--font-weight-3),
+  'normal': var(--font-weight-4),
+  'medium': var(--font-weight-5),
+  'semibold': var(--font-weight-6),
+  'bold': var(--font-weight-7),
+  'extrabold': var(--font-weight-8),
+  'black': var(--font-weight-9),
 );
+
 
 // Font Line Heights
 $font-lineheights: (
@@ -29,36 +30,39 @@ $font-lineheights: (
 
 // Font Letter Spacing
 $font-letterspacing: (
-  0: var(--font-letterspacing-0),
-  1: var(--font-letterspacing-1),
-  2: var(--font-letterspacing-2),
-  3: var(--font-letterspacing-3),
-  4: var(--font-letterspacing-4),
-  5: var(--font-letterspacing-5),
-  6: var(--font-letterspacing-6),
-  7: var(--font-letterspacing-7),
+  "tighter": var(--font-letterspacing-0),
+  "tight": var(--font-letterspacing-1),
+  "normal": var(--font-letterspacing-2),
+  "wide": var(--font-letterspacing-3),
+  "wider": var(--font-letterspacing-4),
+  "widest": var(--font-letterspacing-5),
+  "extrawide": var(--font-letterspacing-6),
+  "maxwide": var(--font-letterspacing-7),
 );
 
 // Font Sizes
 $font-sizes: (
-  '00': var(--font-size-00),
-  0: var(--font-size-0),
-  1: var(--font-size-1),
-  2: var(--font-size-2),
-  3: var(--font-size-3),
-  4: var(--font-size-4),
-  5: var(--font-size-5),
-  6: var(--font-size-6),
-  7: var(--font-size-7),
-  8: var(--font-size-8),
+  '2xs': var(--font-size-00),
+  'xs': var(--font-size-0),
+  'sm': var(--font-size-1),
+  'base': var(--font-size-2),
+  'lg': var(--font-size-3),
+  'xl': var(--font-size-4),
+  '2xl': var(--font-size-5),
+  '3xl': 3.75rem,
+  '4xl': 4.5rem,
+  '5xl': 6rem,
+  '6xl': 8rem,
 );
+
+
 
 // Fluid Font Sizes
 $font-fluid-sizes: (
-  0: var(--font-size-fluid-0),
-  1: var(--font-size-fluid-1),
-  2: var(--font-size-fluid-2),
-  3: var(--font-size-fluid-3),
+  'small': var(--font-size-fluid-0),
+  'medium': var(--font-size-fluid-1),
+  'large': var(--font-size-fluid-2),
+  'x-large': var(--font-size-fluid-3),
 );
 
 // Font Weights
@@ -82,29 +86,30 @@ $leading-4: var(--font-lineheight-4);
 $leading-5: var(--font-lineheight-5);
 
 // Font Letter Spacing
-$tracking-0: var(--font-letterspacing-0);
-$tracking-1: var(--font-letterspacing-1);
-$tracking-2: var(--font-letterspacing-2);
-$tracking-3: var(--font-letterspacing-3);
-$tracking-4: var(--font-letterspacing-4);
-$tracking-5: var(--font-letterspacing-5);
-$tracking-6: var(--font-letterspacing-6);
-$tracking-7: var(--font-letterspacing-7);
+$tracking-tighter: var(--font-letterspacing-0);
+$tracking-tight: var(--font-letterspacing-1);
+$tracking-normal: var(--font-letterspacing-2);
+$tracking-wide: var(--font-letterspacing-3);
+$tracking-wider: var(--font-letterspacing-4);
+$tracking-widest: var(--font-letterspacing-5);
+$tracking-extrawide: var(--font-letterspacing-6);
+$tracking-maxwide: var(--font-letterspacing-7);
 
 // Font Sizes
-$text-00: var(--font-size-00);
-$text-0: var(--font-size-0);
-$text-1: var(--font-size-1);
-$text-2: var(--font-size-2);
-$text-3: var(--font-size-3);
-$text-4: var(--font-size-4);
-$text-5: var(--font-size-5);
-$text-6: var(--font-size-6);
-$text-7: var(--font-size-7);
-$text-8: var(--font-size-8);
+$text-2xs: var(--font-size-00);
+$text-xs: var(--font-size-0);
+$text-sm: var(--font-size-1);
+$text-base: var(--font-size-2);
+$text-lg: var(--font-size-3);
+$text-xl: var(--font-size-4);
+$text-2xl: var(--font-size-5);
+$text-3xl: 3.75rem;
+$text-4xl: 4.5rem;
+$text-5xl: 6rem;
+$text-6xl: 8rem;
 
 // Fluid Font Sizes
-$text-fluid-0: var(--font-size-fluid-0);
-$text-fluid-1: var(--font-size-fluid-1);
-$text-fluid-2: var(--font-size-fluid-2);
-$text-fluid-3: var(--font-size-fluid-3);
+$text-fluid-small: var(--font-size-fluid-0);
+$text-fluid-medium: var(--font-size-fluid-1);
+$text-fluid-large: var(--font-size-fluid-2);
+$text-fluid-x-large: var(--font-size-fluid-3);

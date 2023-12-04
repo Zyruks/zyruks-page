@@ -8,7 +8,6 @@ $justify-contents: (center, space-between, space-around, space-evenly, flex-star
   flex-wrap: wrap;
 
   column-gap: var(--flex-column-gap, $flex-group-gap);
-
   row-gap: var(--flex-row-gap, calc($flex-group-gap / 2));
 
   @each $position in $positions {
@@ -28,8 +27,6 @@ $justify-contents: (center, space-between, space-around, space-evenly, flex-star
         } @else {
           justify-content: #{$justify};
         }
-
-        @debug $data-attr
       }
     }
   }
