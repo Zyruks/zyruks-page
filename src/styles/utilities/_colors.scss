@@ -5,8 +5,17 @@
     .text-#{$colorname}-#{$shade} {
       color: $color-value;
     }
+
     .bg-#{$colorname}-#{$shade} {
       background-color: $color-value;
+    }
+
+    .fill-#{$colorname}-#{$shade} {
+      fill: $color-value;
+    }
+
+    .stroke-#{$colorname}-#{$shade} {
+      stroke: $color-value;
     }
   }
 }

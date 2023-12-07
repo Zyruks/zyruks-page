@@ -1,290 +1,34 @@
-$colors: (
-  "gray": (
-    50: var(--gray-0),
-    100: var(--gray-1),
-    200: var(--gray-2),
-    300: var(--gray-3),
-    400: var(--gray-4),
-    500: var(--gray-5),
-    600: var(--gray-6),
-    700: var(--gray-7),
-    800: var(--gray-8),
-    900: var(--gray-9),
-    1000: var(--gray-10),
-    1100: var(--gray-11),
-    1200: var(--gray-12)
-  ),
-  "stone": (
-    50: var(--stone-0),
-    100: var(--stone-1),
-    200: var(--stone-2),
-    300: var(--stone-3),
-    400: var(--stone-4),
-    500: var(--stone-5),
-    600: var(--stone-6),
-    700: var(--stone-7),
-    800: var(--stone-8),
-    900: var(--stone-9),
-    1000: var(--stone-10),
-    1100: var(--stone-11),
-    1200: var(--stone-12)
-  ),
-  "red": (
-    50: var(--red-0),
-    100: var(--red-1),
-    200: var(--red-2),
-    300: var(--red-3),
-    400: var(--red-4),
-    500: var(--red-5),
-    600: var(--red-6),
-    700: var(--red-7),
-    800: var(--red-8),
-    900: var(--red-9),
-    1000: var(--red-10),
-    1100: var(--red-11),
-    1200: var(--red-12)
-  ),
-  "pink": (
-    50: var(--pink-0),
-    100: var(--pink-1),
-    200: var(--pink-2),
-    300: var(--pink-3),
-    400: var(--pink-4),
-    500: var(--pink-5),
-    600: var(--pink-6),
-    700: var(--pink-7),
-    800: var(--pink-8),
-    900: var(--pink-9),
-    1000: var(--pink-10),
-    1100: var(--pink-11),
-    1200: var(--pink-12)
-  ),
-  "purple": (
-    50: var(--purple-0),
-    100: var(--purple-1),
-    200: var(--purple-2),
-    300: var(--purple-3),
-    400: var(--purple-4),
-    500: var(--purple-5),
-    600: var(--purple-6),
-    700: var(--purple-7),
-    800: var(--purple-8),
-    900: var(--purple-9),
-    1000: var(--purple-10),
-    1100: var(--purple-11),
-    1200: var(--purple-12)
-  ),
-  "violet": (
-    50: var(--violet-0),
-    100: var(--violet-1),
-    200: var(--violet-2),
-    300: var(--violet-3),
-    400: var(--violet-4),
-    500: var(--violet-5),
-    600: var(--violet-6),
-    700: var(--violet-7),
-    800: var(--violet-8),
-    900: var(--violet-9),
-    1000: var(--violet-10),
-    1100: var(--violet-11),
-    1200: var(--violet-12)
-  ),
-  "indigo": (
-    50: var(--indigo-0),
-    100: var(--indigo-1),
-    200: var(--indigo-2),
-    300: var(--indigo-3),
-    400: var(--indigo-4),
-    500: var(--indigo-5),
-    600: var(--indigo-6),
-    700: var(--indigo-7),
-    800: var(--indigo-8),
-    900: var(--indigo-9),
-    1000: var(--indigo-10),
-    1100: var(--indigo-11),
-    1200: var(--indigo-12)
-  ),
-  "blue": (
-    50: var(--blue-0),
-    100: var(--blue-1),
-    200: var(--blue-2),
-    300: var(--blue-3),
-    400: var(--blue-4),
-    500: var(--blue-5),
-    600: var(--blue-6),
-    700: var(--blue-7),
-    800: var(--blue-8),
-    900: var(--blue-9),
-    1000: var(--blue-10),
-    1100: var(--blue-11),
-    1200: var(--blue-12)
-  ),
-  "cyan": (
-    50: var(--cyan-0),
-    100: var(--cyan-1),
-    200: var(--cyan-2),
-    300: var(--cyan-3),
-    400: var(--cyan-4),
-    500: var(--cyan-5),
-    600: var(--cyan-6),
-    700: var(--cyan-7),
-    800: var(--cyan-8),
-    900: var(--cyan-9),
-    1000: var(--cyan-10),
-    1100: var(--cyan-11),
-    1200: var(--cyan-12)
-  ),
-  "teal": (
-    50: var(--teal-0),
-    100: var(--teal-1),
-    200: var(--teal-2),
-    300: var(--teal-3),
-    400: var(--teal-4),
-    500: var(--teal-5),
-    600: var(--teal-6),
-    700: var(--teal-7),
-    800: var(--teal-8),
-    900: var(--teal-9),
-    1000: var(--teal-10),
-    1100: var(--teal-11),
-    1200: var(--teal-12)
-  ),
-  "green": (
-    50: var(--green-0),
-    100: var(--green-1),
-    200: var(--green-2),
-    300: var(--green-3),
-    400: var(--green-4),
-    500: var(--green-5),
-    600: var(--green-6),
-    700: var(--green-7),
-    800: var(--green-8),
-    900: var(--green-9),
-    1000: var(--green-10),
-    1100: var(--green-11),
-    1200: var(--green-12)
-  ),
-  "lime": (
-    50: var(--lime-0),
-    100: var(--lime-1),
-    200: var(--lime-2),
-    300: var(--lime-3),
-    400: var(--lime-4),
-    500: var(--lime-5),
-    600: var(--lime-6),
-    700: var(--lime-7),
-    800: var(--lime-8),
-    900: var(--lime-9),
-    1000: var(--lime-10),
-    1100: var(--lime-11),
-    1200: var(--lime-12)
-  ),
-  "yellow": (
-    50: var(--yellow-0),
-    100: var(--yellow-1),
-    200: var(--yellow-2),
-    300: var(--yellow-3),
-    400: var(--yellow-4),
-    500: var(--yellow-5),
-    600: var(--yellow-6),
-    700: var(--yellow-7),
-    800: var(--yellow-8),
-    900: var(--yellow-9),
-    1000: var(--yellow-10),
-    1100: var(--yellow-11),
-    1200: var(--yellow-12)
-  ),
-  "orange": (
-    50: var(--orange-0),
-    100: var(--orange-1),
-    200: var(--orange-2),
-    300: var(--orange-3),
-    400: var(--orange-4),
-    500: var(--orange-5),
-    600: var(--orange-6),
-    700: var(--orange-7),
-    800: var(--orange-8),
-    900: var(--orange-9),
-    1000: var(--orange-10),
-    1100: var(--orange-11),
-    1200: var(--orange-12)
-  ),
-  "choco": (
-    50: var(--choco-0),
-    100: var(--choco-1),
-    200: var(--choco-2),
-    300: var(--choco-3),
-    400: var(--choco-4),
-    500: var(--choco-5),
-    600: var(--choco-6),
-    700: var(--choco-7),
-    800: var(--choco-8),
-    900: var(--choco-9),
-    1000: var(--choco-10),
-    1100: var(--choco-11),
-    1200: var(--choco-12)
-  ),
-  "brown": (
-    50: var(--brown-0),
-    100: var(--brown-1),
-    200: var(--brown-2),
-    300: var(--brown-3),
-    400: var(--brown-4),
-    500: var(--brown-5),
-    600: var(--brown-6),
-    700: var(--brown-7),
-    800: var(--brown-8),
-    900: var(--brown-9),
-    1000: var(--brown-10),
-    1100: var(--brown-11),
-    1200: var(--brown-12)
-  ),
-  "sand": (
-    50: var(--sand-0),
-    100: var(--sand-1),
-    200: var(--sand-2),
-    300: var(--sand-3),
-    400: var(--sand-4),
-    500: var(--sand-5),
-    600: var(--sand-6),
-    700: var(--sand-7),
-    800: var(--sand-8),
-    900: var(--sand-9),
-    1000: var(--sand-10),
-    1100: var(--sand-11),
-    1200: var(--sand-12)
-  ),
-  "camo": (
-    50: var(--camo-0),
-    100: var(--camo-1),
-    200: var(--camo-2),
-    300: var(--camo-3),
-    400: var(--camo-4),
-    500: var(--camo-5),
-    600: var(--camo-6),
-    700: var(--camo-7),
-    800: var(--camo-8),
-    900: var(--camo-9),
-    1000: var(--camo-10),
-    1100: var(--camo-11),
-    1200: var(--camo-12)
-  ),
-  "jungle": (
-    50: var(--jungle-0),
-    100: var(--jungle-1),
-    200: var(--jungle-2),
-    300: var(--jungle-3),
-    400: var(--jungle-4),
-    500: var(--jungle-5),
-    600: var(--jungle-6),
-    700: var(--jungle-7),
-    800: var(--jungle-8),
-    900: var(--jungle-9),
-    1000: var(--jungle-10),
-    1100: var(--jungle-11),
-    1200: var(--jungle-12)
-  )
-);
+// This map organizes the defined color variables into a structured format.
+
+// 'primary' and 'secondary' are the main keys, each containing their respective color shades.
+
+// This structure makes it easy to retrieve and use these colors throughout the project.
+$clr-primary-50: var(--red-0);
+$clr-primary-100: var(--red-1);
+$clr-primary-200: var(--red-2);
+$clr-primary-300: var(--red-3);
+$clr-primary-400: var(--red-4);
+$clr-primary-500: var(--red-5);
+$clr-primary-600: var(--red-6);
+$clr-primary-700: var(--red-7);
+$clr-primary-800: var(--red-8);
+$clr-primary-900: var(--red-9);
+$clr-primary-1000: var(--red-10);
+$clr-primary-1100: var(--red-11);
+$clr-primary-1200: var(--red-12);
+$clr-secondary-50: var(--lime-0);
+$clr-secondary-100: var(--lime-1);
+$clr-secondary-200: var(--lime-2);
+$clr-secondary-300: var(--lime-3);
+$clr-secondary-400: var(--lime-4);
+$clr-secondary-500: var(--lime-5);
+$clr-secondary-600: var(--lime-6);
+$clr-secondary-700: var(--lime-7);
+$clr-secondary-800: var(--lime-8);
+$clr-secondary-900: var(--lime-9);
+$clr-secondary-1000: var(--lime-10);
+$clr-secondary-1100: var(--lime-11);
+$clr-secondary-1200: var(--lime-12);
 
 /**** Individual Colors ****/
 

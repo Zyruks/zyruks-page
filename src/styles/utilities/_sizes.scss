@@ -1,0 +1,11 @@
+@use '@styles/abstracts' as *;
+
+@each $size-name, $size-value in $sizes {
+  .w-#{$size-name} {
+    inline-size: $size-value;
+  }
+
+  .h-#{$size-name} {
+    block-size: $size-value;
+  }
+}
