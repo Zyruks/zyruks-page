@@ -1,6 +1,4 @@
 ---
-import Icon, { IconStyle } from '@components/Icon/Icon.astro';
-import { IconCatalog } from '@components/Icon/Icons';
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
@@ -15,12 +13,7 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
   <body>
     <Header title={SITE_TITLE} />
     <main>
-      <h1 class="">
-        <Icon icon={IconCatalog.bolt} class="text-orange-400 w-10" />
-        <Icon icon={IconCatalog.bugAnt} class="text-yellow-500 w-10" iconStyle={IconStyle.solid} />
-        <Icon icon={IconCatalog.bugAnt} class="text-blue-500 w-10" iconStyle={IconStyle.thin} />
-        <Icon icon={IconCatalog.bugAnt} class="text-green-500 w-10" iconStyle={IconStyle.solid} />
-      </h1>
+      <h1>Hey</h1>
 
       <p>
         Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This
