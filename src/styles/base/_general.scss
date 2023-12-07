@@ -1,11 +1,1 @@
 @use '@styles/abstracts' as *;
-
-body {
-  z-index: 41;
-
-  font-size: $size-12;
-
-  background-color: hsl(120deg 100% 50%);
-  margin-inline: 0 2rem;
-  margin-block: 1rem;
-}

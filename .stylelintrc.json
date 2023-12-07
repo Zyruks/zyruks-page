@@ -8,9 +8,11 @@
     "stylelint-selector-no-empty",
     "stylelint-suitcss",
     "stylelint-use-logical-spec",
-    "stylelint-high-performance-animation"
+    "stylelint-high-performance-animation",
+    "stylelint-rem-over-px"
   ],
   "rules": {
+    "rem-over-px/rem-over-px": true,
     "color-no-invalid-hex": true,
     "font-family-no-duplicate-names": true,
     "font-family-no-missing-generic-family-keyword": true,
