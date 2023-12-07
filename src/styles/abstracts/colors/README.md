@@ -13,6 +13,7 @@ This project uses a structured approach to manage its color scheme, divided into
 ### Adding or Modifying Colors
 
 1. **Update Color Definitions:**
+
    - When adding a new color or modifying an existing one, start by updating the `_color-definitions.scss` file.
    - Add your new color variable in the respective category section (e.g., primary, secondary).
    - Follow the naming convention: `$[category]-[shade]: [color-value];`
