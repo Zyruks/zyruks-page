@@ -1,0 +1,54 @@
+$mask-edges: (
+  scoop-bottom: var(--mask-edge-scoop-bottom),
+  scoop-top: var(--mask-edge-scoop-top),
+  scoop-vertical: var(--mask-edge-scoop-vertical),
+  scoop-left: var(--mask-edge-scoop-left),
+  scoop-right: var(--mask-edge-scoop-right),
+  scoop-horizontal: var(--mask-edge-scoop-horizontal),
+  scalloped: var(--mask-edge-scalloped),
+  scalloped-bottom: var(--mask-edge-scalloped-bottom),
+  scalloped-top: var(--mask-edge-scalloped-top),
+  scalloped-vertical: var(--mask-edge-scalloped-vertical),
+  scalloped-left: var(--mask-edge-scalloped-left),
+  scalloped-right: var(--mask-edge-scalloped-right),
+  scalloped-horizontal: var(--mask-edge-scalloped-horizontal),
+  drip-bottom: var(--mask-edge-drip-bottom),
+  drip-top: var(--mask-edge-drip-top),
+  drip-vertical: var(--mask-edge-drip-vertical),
+  drip-left: var(--mask-edge-drip-left),
+  drip-right: var(--mask-edge-drip-right),
+  drip-horizontal: var(--mask-edge-drip-horizontal),
+  zig-zag-top: var(--mask-edge-zig-zag-top),
+  zig-zag-bottom: var(--mask-edge-zig-zag-bottom),
+  zig-zag-left: var(--mask-edge-zig-zag-left),
+  zig-zag-right: var(--mask-edge-zig-zag-right),
+  zig-zag-horizontal: var(--mask-edge-zig-zag-horizontal),
+  zig-zag-vertical: var(--mask-edge-zig-zag-vertical),
+);
+
+// Mask Edges
+$mask-scoop-bottom: var(--mask-edge-scoop-bottom);
+$mask-scoop-top: var(--mask-edge-scoop-top);
+$mask-scoop-vertical: var(--mask-edge-scoop-vertical);
+$mask-scoop-left: var(--mask-edge-scoop-left);
+$mask-scoop-right: var(--mask-edge-scoop-right);
+$mask-scoop-horizontal: var(--mask-edge-scoop-horizontal);
+$mask-scalloped: var(--mask-edge-scalloped);
+$mask-scalloped-bottom: var(--mask-edge-scalloped-bottom);
+$mask-scalloped-top: var(--mask-edge-scalloped-top);
+$mask-scalloped-vertical: var(--mask-edge-scalloped-vertical);
+$mask-scalloped-left: var(--mask-edge-scalloped-left);
+$mask-scalloped-right: var(--mask-edge-scalloped-right);
+$mask-scalloped-horizontal: var(--mask-edge-scalloped-horizontal);
+$mask-drip-bottom: var(--mask-edge-drip-bottom);
+$mask-drip-top: var(--mask-edge-drip-top);
+$mask-drip-vertical: var(--mask-edge-drip-vertical);
+$mask-drip-left: var(--mask-edge-drip-left);
+$mask-drip-right: var(--mask-edge-drip-right);
+$mask-drip-horizontal: var(--mask-edge-drip-horizontal);
+$mask-zig-zag-top: var(--mask-edge-zig-zag-top);
+$mask-zig-zag-bottom: var(--mask-edge-zig-zag-bottom);
+$mask-zig-zag-left: var(--mask-edge-zig-zag-left);
+$mask-zig-zag-right: var(--mask-edge-zig-zag-right);
+$mask-zig-zag-horizontal: var(--mask-edge-zig-zag-horizontal);
+$mask-zig-zag-vertical: var(--mask-edge-zig-zag-vertical);

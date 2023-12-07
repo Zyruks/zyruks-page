@@ -22,7 +22,6 @@
     "^.[./].*",
     ""
   ],
-
   "overrides": [
     {
       "files": "*.astro",

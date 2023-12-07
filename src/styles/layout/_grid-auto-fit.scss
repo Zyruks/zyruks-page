@@ -1,0 +1,15 @@
+@use '@styles/abstracts' as *;
+
+.grid-auto-fit {
+  --min-item-width: 18.75rem;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(var(--min-item-width), 100%), 1fr));
+  row-gap: var(--grid-gap-row, $grid-gap);
+
+  column-gap: var(--grid-gap-column, $grid-gap);
+}
+
+.grid-auto-fit.mx-auto {
+  justify-items: center;
+}

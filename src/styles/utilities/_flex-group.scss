@@ -1,0 +1,38 @@
+@use '@styles/abstracts' as *;
+
+$positions: (center, start, end);
+$justify-contents: (center, space-between, space-around, space-evenly, flex-start, flex-end);
+
+.flex-group {
+  display: flex;
+  flex-wrap: wrap;
+
+  column-gap: var(--flex-column-gap, $flex-group-gap);
+  row-gap: var(--flex-row-gap, calc($flex-group-gap / 2));
+
+  @each $position in $positions {
+    @each $justify in $justify-contents {
+      $data-attr: "data-position='#{$position} #{$justify}'";
+
+
+      &[#{$data-attr}] {
+        @if $position == 'center' {
+          align-items: center;
+        } @else {
+          align-items: #{$position};
+        }
+
+        @if $justify == 'center' {
+          justify-content: center;
+        } @else {
+          justify-content: #{$justify};
+        }
+      }
+    }
+  }
+}
+
+.flex-group.mx-auto {
+  align-items: center;
+  justify-content: space-between;
+}

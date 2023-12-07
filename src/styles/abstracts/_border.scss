@@ -1,0 +1,56 @@
+$border-sizes: (
+  "border-xs": var(--border-size-1),
+  "border-sm": var(--border-size-2),
+  "border-md": var(--border-size-3),
+  "border-lg": var(--border-size-4),
+  "border-xl": var(--border-size-5),
+);
+$border-radius: (
+  "radius-xs": var(--radius-1),
+  "radius-sm": var(--radius-2),
+  "radius-md": var(--radius-3),
+  "radius-lg": var(--radius-4),
+  "radius-xl": var(--radius-5),
+  "radius-2xl": var(--radius-6),
+  "round": var(--radius-round),
+  "blob-xs": var(--radius-blob-1),
+  "blob-sm": var(--radius-blob-2),
+  "blob-md": var(--radius-blob-3),
+  "blob-lg": var(--radius-blob-4),
+  "blob-xl": var(--radius-blob-5),
+  "conditional-xs": var(--radius-conditional-1),
+  "conditional-sm": var(--radius-conditional-2),
+  "conditional-md": var(--radius-conditional-3),
+  "conditional-lg": var(--radius-conditional-4),
+  "conditional-xl": var(--radius-conditional-5),
+  "conditional-2xl": var(--radius-conditional-6),
+);
+
+
+
+// borders
+$border-1: var(--border-size-1);
+$border-2: var(--border-size-2);
+$border-3: var(--border-size-3);
+$border-4: var(--border-size-4);
+$border-5: var(--border-size-5);
+
+// Border Radius
+$border-radius-1: var(--radius-1);
+$border-radius-2: var(--radius-2);
+$border-radius-3: var(--radius-3);
+$border-radius-4: var(--radius-4);
+$border-radius-5: var(--radius-5);
+$border-radius-6: var(--radius-6);
+$border-radius-round: var(--radius-round);
+$border-radius-blob-1: var(--radius-blob-1);
+$border-radius-blob-2: var(--radius-blob-2);
+$border-radius-blob-3: var(--radius-blob-3);
+$border-radius-blob-4: var(--radius-blob-4);
+$border-radius-blob-5: var(--radius-blob-5);
+$border-radius-conditional-1: var(--radius-conditional-1);
+$border-radius-conditional-2: var(--radius-conditional-2);
+$border-radius-conditional-3: var(--radius-conditional-3);
+$border-radius-conditional-4: var(--radius-conditional-4);
+$border-radius-conditional-5: var(--radius-conditional-5);
+$border-radius-conditional-6: var(--radius-conditional-6);

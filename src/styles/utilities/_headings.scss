@@ -1,0 +1,22 @@
+@use '@styles/abstracts' as *;
+
+.heading-1 {
+  color: $jungle-200;
+  font-weight: $font-bold;
+  font-size: $text-5xl;
+  font-family: $font-sans;
+  line-height: $leading-4;
+  letter-spacing: inherit;
+  max-inline-size: $size-relative-14;
+
+}
+
+.heading-2 {
+  font-weight: $font-normal;
+  font-size: clamp(1.5rem, calc(-0.17rem + 7.14vw), 5.7rem);
+}
+
+.heading-3 {
+  font-weight:  $font-normal;
+  font-size: 2rem;
+}

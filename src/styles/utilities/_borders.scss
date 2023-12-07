@@ -1,0 +1,49 @@
+@use '@styles/abstracts' as *;
+
+@each $border-name, $border-value in $border-sizes {
+  /* stylelint-disable-next-line plugin/stylelint-selector-no-empty */
+  .#{$border-name} {
+    border-style: solid;
+    border-width: $border-value;
+  }
+}
+
+@each $radius-name, $radius-value in $border-radius {
+  /* stylelint-disable-next-line plugin/stylelint-selector-no-empty */
+  .#{$radius-name} {
+    border-radius: $radius-value;
+  }
+}
+
+@each $color-name, $shades in $colors {
+  @each $shade, $color-value in $shades {
+    .border-#{$color-name}-#{$shade} {
+      border: #{$color-value};
+    }
+
+  }
+}
+
+.border-solid {
+  border-style: solid;
+}
+
+.border-dashed {
+  border-style: dashed;
+}
+
+.border-dotted {
+  border-style: dotted;
+}
+
+.border-double {
+  border-style: double;
+}
+
+.border-hidden {
+  border-style: hidden;
+}
+
+.border-none {
+  border-style: none;
+}

@@ -1,0 +1,8 @@
+@use '@styles/abstracts' as *;
+
+@each $layer-name, $layer-value in $layers {
+  /* stylelint-disable-next-line plugin/stylelint-selector-no-empty */
+  .#{$layer-name} {
+    z-index: $layer-value;
+  }
+}

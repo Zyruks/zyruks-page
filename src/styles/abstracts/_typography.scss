@@ -1,0 +1,115 @@
+// Font Families
+$font-sans: var(--font-sans);
+$font-serif: var(--font-serif);
+$font-mono: var(--font-mono);
+
+// Font Weights
+$font-weights: (
+  'thin': var(--font-weight-1),
+  'extralight': var(--font-weight-2),
+  'light': var(--font-weight-3),
+  'normal': var(--font-weight-4),
+  'medium': var(--font-weight-5),
+  'semibold': var(--font-weight-6),
+  'bold': var(--font-weight-7),
+  'extrabold': var(--font-weight-8),
+  'black': var(--font-weight-9),
+);
+
+
+// Font Line Heights
+$font-lineheights: (
+  '00': var(--font-lineheight-00),
+  '0': var(--font-lineheight-0),
+  1: var(--font-lineheight-1),
+  2: var(--font-lineheight-2),
+  3: var(--font-lineheight-3),
+  4: var(--font-lineheight-4),
+  5: var(--font-lineheight-5),
+);
+
+// Font Letter Spacing
+$font-letterspacing: (
+  "tighter": var(--font-letterspacing-0),
+  "tight": var(--font-letterspacing-1),
+  "normal": var(--font-letterspacing-2),
+  "wide": var(--font-letterspacing-3),
+  "wider": var(--font-letterspacing-4),
+  "widest": var(--font-letterspacing-5),
+  "extrawide": var(--font-letterspacing-6),
+  "maxwide": var(--font-letterspacing-7),
+);
+
+// Font Sizes
+$font-sizes: (
+  '2xs': var(--font-size-00),
+  'xs': var(--font-size-0),
+  'sm': var(--font-size-1),
+  'base': var(--font-size-2),
+  'lg': var(--font-size-3),
+  'xl': var(--font-size-4),
+  '2xl': var(--font-size-5),
+  '3xl': 3.75rem,
+  '4xl': 4.5rem,
+  '5xl': 6rem,
+  '6xl': 8rem,
+);
+
+
+
+// Fluid Font Sizes
+$font-fluid-sizes: (
+  'small': var(--font-size-fluid-0),
+  'medium': var(--font-size-fluid-1),
+  'large': var(--font-size-fluid-2),
+  'x-large': var(--font-size-fluid-3),
+);
+
+// Font Weights
+$font-thin: var(--font-weight-1);
+$font-extralight: var(--font-weight-2);
+$font-light: var(--font-weight-3);
+$font-normal: var(--font-weight-4);
+$font-medium: var(--font-weight-5);
+$font-semibold: var(--font-weight-6);
+$font-bold: var(--font-weight-7);
+$font-extrabold: var(--font-weight-8);
+$font-black: var(--font-weight-9);
+
+// Font Line Heights
+$leading-00: var(--font-lineheight-00);
+$leading-0: var(--font-lineheight-0);
+$leading-1: var(--font-lineheight-1);
+$leading-2: var(--font-lineheight-2);
+$leading-3: var(--font-lineheight-3);
+$leading-4: var(--font-lineheight-4);
+$leading-5: var(--font-lineheight-5);
+
+// Font Letter Spacing
+$tracking-tighter: var(--font-letterspacing-0);
+$tracking-tight: var(--font-letterspacing-1);
+$tracking-normal: var(--font-letterspacing-2);
+$tracking-wide: var(--font-letterspacing-3);
+$tracking-wider: var(--font-letterspacing-4);
+$tracking-widest: var(--font-letterspacing-5);
+$tracking-extrawide: var(--font-letterspacing-6);
+$tracking-maxwide: var(--font-letterspacing-7);
+
+// Font Sizes
+$text-2xs: var(--font-size-00);
+$text-xs: var(--font-size-0);
+$text-sm: var(--font-size-1);
+$text-base: var(--font-size-2);
+$text-lg: var(--font-size-3);
+$text-xl: var(--font-size-4);
+$text-2xl: var(--font-size-5);
+$text-3xl: 3.75rem;
+$text-4xl: 4.5rem;
+$text-5xl: 6rem;
+$text-6xl: 8rem;
+
+// Fluid Font Sizes
+$text-fluid-small: var(--font-size-fluid-0);
+$text-fluid-medium: var(--font-size-fluid-1);
+$text-fluid-large: var(--font-size-fluid-2);
+$text-fluid-x-large: var(--font-size-fluid-3);

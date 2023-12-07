@@ -1,0 +1,318 @@
+// This map organizes the defined color variables into a structured format.
+
+// 'primary' and 'secondary' are the main keys, each containing their respective color shades.
+
+// This structure makes it easy to retrieve and use these colors throughout the project.
+$clr-primary-50: var(--red-0);
+$clr-primary-100: var(--red-1);
+$clr-primary-200: var(--red-2);
+$clr-primary-300: var(--red-3);
+$clr-primary-400: var(--red-4);
+$clr-primary-500: var(--red-5);
+$clr-primary-600: var(--red-6);
+$clr-primary-700: var(--red-7);
+$clr-primary-800: var(--red-8);
+$clr-primary-900: var(--red-9);
+$clr-primary-1000: var(--red-10);
+$clr-primary-1100: var(--red-11);
+$clr-primary-1200: var(--red-12);
+$clr-secondary-50: var(--lime-0);
+$clr-secondary-100: var(--lime-1);
+$clr-secondary-200: var(--lime-2);
+$clr-secondary-300: var(--lime-3);
+$clr-secondary-400: var(--lime-4);
+$clr-secondary-500: var(--lime-5);
+$clr-secondary-600: var(--lime-6);
+$clr-secondary-700: var(--lime-7);
+$clr-secondary-800: var(--lime-8);
+$clr-secondary-900: var(--lime-9);
+$clr-secondary-1000: var(--lime-10);
+$clr-secondary-1100: var(--lime-11);
+$clr-secondary-1200: var(--lime-12);
+
+/**** Individual Colors ****/
+
+/* Gray Colors */
+$gray-50: var(--gray-0);
+$gray-100: var(--gray-1);
+$gray-200: var(--gray-2);
+$gray-300: var(--gray-3);
+$gray-400: var(--gray-4);
+$gray-500: var(--gray-5);
+$gray-600: var(--gray-6);
+$gray-700: var(--gray-7);
+$gray-800: var(--gray-8);
+$gray-900: var(--gray-9);
+$gray-1000: var(--gray-10);
+$gray-1100: var(--gray-11);
+$gray-1200: var(--gray-12);
+
+/* Stone Colors */
+$stone-50: var(--stone-0);
+$stone-100: var(--stone-1);
+$stone-200: var(--stone-2);
+$stone-300: var(--stone-3);
+$stone-400: var(--stone-4);
+$stone-500: var(--stone-5);
+$stone-600: var(--stone-6);
+$stone-700: var(--stone-7);
+$stone-800: var(--stone-8);
+$stone-900: var(--stone-9);
+$stone-1000: var(--stone-10);
+$stone-1100: var(--stone-11);
+$stone-1200: var(--stone-12);
+
+/* Red Colors */
+$red-50: var(--red-0);
+$red-100: var(--red-1);
+$red-200: var(--red-2);
+$red-300: var(--red-3);
+$red-400: var(--red-4);
+$red-500: var(--red-5);
+$red-600: var(--red-6);
+$red-700: var(--red-7);
+$red-800: var(--red-8);
+$red-900: var(--red-9);
+$red-1000: var(--red-10);
+$red-1100: var(--red-11);
+$red-1200: var(--red-12);
+
+/* Pink Colors */
+$pink-50: var(--pink-0);
+$pink-100: var(--pink-1);
+$pink-200: var(--pink-2);
+$pink-300: var(--pink-3);
+$pink-400: var(--pink-4);
+$pink-500: var(--pink-5);
+$pink-600: var(--pink-6);
+$pink-700: var(--pink-7);
+$pink-800: var(--pink-8);
+$pink-900: var(--pink-9);
+$pink-1000: var(--pink-10);
+$pink-1100: var(--pink-11);
+$pink-1200: var(--pink-12);
+
+/* Purple Colors */
+$purple-50: var(--purple-0);
+$purple-100: var(--purple-1);
+$purple-200: var(--purple-2);
+$purple-300: var(--purple-3);
+$purple-400: var(--purple-4);
+$purple-500: var(--purple-5);
+$purple-600: var(--purple-6);
+$purple-700: var(--purple-7);
+$purple-800: var(--purple-8);
+$purple-900: var(--purple-9);
+$purple-1000: var(--purple-10);
+$purple-1100: var(--purple-11);
+$purple-1200: var(--purple-12);
+
+/* Violet Colors */
+$violet-50: var(--violet-0);
+$violet-100: var(--violet-1);
+$violet-200: var(--violet-2);
+$violet-300: var(--violet-3);
+$violet-400: var(--violet-4);
+$violet-500: var(--violet-5);
+$violet-600: var(--violet-6);
+$violet-700: var(--violet-7);
+$violet-800: var(--violet-8);
+$violet-900: var(--violet-9);
+$violet-1000: var(--violet-10);
+$violet-1100: var(--violet-11);
+$violet-1200: var(--violet-12);
+
+/* Indigo Colors */
+$indigo-50: var(--indigo-0);
+$indigo-100: var(--indigo-1);
+$indigo-200: var(--indigo-2);
+$indigo-300: var(--indigo-3);
+$indigo-400: var(--indigo-4);
+$indigo-500: var(--indigo-5);
+$indigo-600: var(--indigo-6);
+$indigo-700: var(--indigo-7);
+$indigo-800: var(--indigo-8);
+$indigo-900: var(--indigo-9);
+$indigo-1000: var(--indigo-10);
+$indigo-1100: var(--indigo-11);
+$indigo-1200: var(--indigo-12);
+
+/* Blue Colors */
+$blue-50: var(--blue-0);
+$blue-100: var(--blue-1);
+$blue-200: var(--blue-2);
+$blue-300: var(--blue-3);
+$blue-400: var(--blue-4);
+$blue-500: var(--blue-5);
+$blue-600: var(--blue-6);
+$blue-700: var(--blue-7);
+$blue-800: var(--blue-8);
+$blue-900: var(--blue-9);
+$blue-1000: var(--blue-10);
+$blue-1100: var(--blue-11);
+$blue-1200: var(--blue-12);
+
+/* Cyan Colors */
+$cyan-50: var(--cyan-0);
+$cyan-100: var(--cyan-1);
+$cyan-200: var(--cyan-2);
+$cyan-300: var(--cyan-3);
+$cyan-400: var(--cyan-4);
+$cyan-500: var(--cyan-5);
+$cyan-600: var(--cyan-6);
+$cyan-700: var(--cyan-7);
+$cyan-800: var(--cyan-8);
+$cyan-900: var(--cyan-9);
+$cyan-1000: var(--cyan-10);
+$cyan-1100: var(--cyan-11);
+$cyan-1200: var(--cyan-12);
+
+/* Teal Colors */
+$teal-50: var(--teal-0);
+$teal-100: var(--teal-1);
+$teal-200: var(--teal-2);
+$teal-300: var(--teal-3);
+$teal-400: var(--teal-4);
+$teal-500: var(--teal-5);
+$teal-600: var(--teal-6);
+$teal-700: var(--teal-7);
+$teal-800: var(--teal-8);
+$teal-900: var(--teal-9);
+$teal-1000: var(--teal-10);
+$teal-1100: var(--teal-11);
+$teal-1200: var(--teal-12);
+
+/* Green Colors */
+$green-50: var(--green-0);
+$green-100: var(--green-1);
+$green-200: var(--green-2);
+$green-300: var(--green-3);
+$green-400: var(--green-4);
+$green-500: var(--green-5);
+$green-600: var(--green-6);
+$green-700: var(--green-7);
+$green-800: var(--green-8);
+$green-900: var(--green-9);
+$green-1000: var(--green-10);
+$green-1100: var(--green-11);
+$green-1200: var(--green-12);
+
+/* Lime Colors */
+$lime-50: var(--lime-0);
+$lime-100: var(--lime-1);
+$lime-200: var(--lime-2);
+$lime-300: var(--lime-3);
+$lime-400: var(--lime-4);
+$lime-500: var(--lime-5);
+$lime-600: var(--lime-6);
+$lime-700: var(--lime-7);
+$lime-800: var(--lime-8);
+$lime-900: var(--lime-9);
+$lime-1000: var(--lime-10);
+$lime-1100: var(--lime-11);
+$lime-1200: var(--lime-12);
+
+/* Yellow Colors */
+$yellow-50: var(--yellow-0);
+$yellow-100: var(--yellow-1);
+$yellow-200: var(--yellow-2);
+$yellow-300: var(--yellow-3);
+$yellow-400: var(--yellow-4);
+$yellow-500: var(--yellow-5);
+$yellow-600: var(--yellow-6);
+$yellow-700: var(--yellow-7);
+$yellow-800: var(--yellow-8);
+$yellow-900: var(--yellow-9);
+$yellow-1000: var(--yellow-10);
+$yellow-1100: var(--yellow-11);
+$yellow-1200: var(--yellow-12);
+
+/* Orange Colors */
+$orange-50: var(--orange-0);
+$orange-100: var(--orange-1);
+$orange-200: var(--orange-2);
+$orange-300: var(--orange-3);
+$orange-400: var(--orange-4);
+$orange-500: var(--orange-5);
+$orange-600: var(--orange-6);
+$orange-700: var(--orange-7);
+$orange-800: var(--orange-8);
+$orange-900: var(--orange-9);
+$orange-1000: var(--orange-10);
+$orange-1100: var(--orange-11);
+$orange-1200: var(--orange-12);
+
+/* Choco Colors */
+$choco-50: var(--choco-0);
+$choco-100: var(--choco-1);
+$choco-200: var(--choco-2);
+$choco-300: var(--choco-3);
+$choco-400: var(--choco-4);
+$choco-500: var(--choco-5);
+$choco-600: var(--choco-6);
+$choco-700: var(--choco-7);
+$choco-800: var(--choco-8);
+$choco-900: var(--choco-9);
+$choco-1000: var(--choco-10);
+$choco-1100: var(--choco-11);
+$choco-1200: var(--choco-12);
+
+/* Brown Colors */
+$brown-50: var(--brown-0);
+$brown-100: var(--brown-1);
+$brown-200: var(--brown-2);
+$brown-300: var(--brown-3);
+$brown-400: var(--brown-4);
+$brown-500: var(--brown-5);
+$brown-600: var(--brown-6);
+$brown-700: var(--brown-7);
+$brown-800: var(--brown-8);
+$brown-900: var(--brown-9);
+$brown-1000: var(--brown-10);
+$brown-1100: var(--brown-11);
+$brown-1200: var(--brown-12);
+
+/* Sand Colors */
+$sand-50: var(--sand-0);
+$sand-100: var(--sand-1);
+$sand-200: var(--sand-2);
+$sand-300: var(--sand-3);
+$sand-400: var(--sand-4);
+$sand-500: var(--sand-5);
+$sand-600: var(--sand-6);
+$sand-700: var(--sand-7);
+$sand-800: var(--sand-8);
+$sand-900: var(--sand-9);
+$sand-1000: var(--sand-10);
+$sand-1100: var(--sand-11);
+$sand-1200: var(--sand-12);
+
+/* Camo Colors */
+$camo-50: var(--camo-0);
+$camo-100: var(--camo-1);
+$camo-200: var(--camo-2);
+$camo-300: var(--camo-3);
+$camo-400: var(--camo-4);
+$camo-500: var(--camo-5);
+$camo-600: var(--camo-6);
+$camo-700: var(--camo-7);
+$camo-800: var(--camo-8);
+$camo-900: var(--camo-9);
+$camo-1000: var(--camo-10);
+$camo-1100: var(--camo-11);
+$camo-1200: var(--camo-12);
+
+/* Jungle Colors */
+$jungle-50: var(--jungle-0);
+$jungle-100: var(--jungle-1);
+$jungle-200: var(--jungle-2);
+$jungle-300: var(--jungle-3);
+$jungle-400: var(--jungle-4);
+$jungle-500: var(--jungle-5);
+$jungle-600: var(--jungle-6);
+$jungle-700: var(--jungle-7);
+$jungle-800: var(--jungle-8);
+$jungle-900: var(--jungle-9);
+$jungle-1000: var(--jungle-10);
+$jungle-1100: var(--jungle-11);
+$jungle-1200: var(--jungle-12);

@@ -1,0 +1,21 @@
+@use '@styles/abstracts' as *;
+
+@each $colorname, $shades in $colors {
+  @each $shade, $color-value in $shades {
+    .text-#{$colorname}-#{$shade} {
+      color: $color-value;
+    }
+
+    .bg-#{$colorname}-#{$shade} {
+      background-color: $color-value;
+    }
+
+    .fill-#{$colorname}-#{$shade} {
+      fill: $color-value;
+    }
+
+    .stroke-#{$colorname}-#{$shade} {
+      stroke: $color-value;
+    }
+  }
+}

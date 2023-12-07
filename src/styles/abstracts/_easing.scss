@@ -1,0 +1,147 @@
+$easing: (
+  1: var(--ease-1),
+  2: var(--ease-2),
+  3: var(--ease-3),
+  4: var(--ease-4),
+  5: var(--ease-5),
+  in-1: var(--ease-in-1),
+  in-2: var(--ease-in-2),
+  in-3: var(--ease-in-3),
+  in-4: var(--ease-in-4),
+  in-5: var(--ease-in-5),
+  out-1: var(--ease-out-1),
+  out-2: var(--ease-out-2),
+  out-3: var(--ease-out-3),
+  out-4: var(--ease-out-4),
+  out-5: var(--ease-out-5),
+  in-out-1: var(--ease-in-out-1),
+  in-out-2: var(--ease-in-out-2),
+  in-out-3: var(--ease-in-out-3),
+  in-out-4: var(--ease-in-out-4),
+  in-out-5: var(--ease-in-out-5),
+  elastic-out-1: var(--ease-elastic-out-1),
+  elastic-out-2: var(--ease-elastic-out-2),
+  elastic-out-3: var(--ease-elastic-out-3),
+  elastic-out-4: var(--ease-elastic-out-4),
+  elastic-out-5: var(--ease-elastic-out-5),
+  elastic-in-1: var(--ease-elastic-in-1),
+  elastic-in-2: var(--ease-elastic-in-2),
+  elastic-in-3: var(--ease-elastic-in-3),
+  elastic-in-4: var(--ease-elastic-in-4),
+  elastic-in-5: var(--ease-elastic-in-5),
+  elastic-in-out-1: var(--ease-elastic-in-out-1),
+  elastic-in-out-2: var(--ease-elastic-in-out-2),
+  elastic-in-out-3: var(--ease-elastic-in-out-3),
+  elastic-in-out-4: var(--ease-elastic-in-out-4),
+  elastic-in-out-5: var(--ease-elastic-in-out-5),
+  step-1: var(--ease-step-1),
+  step-2: var(--ease-step-2),
+  step-3: var(--ease-step-3),
+  step-4: var(--ease-step-4),
+  step-5: var(--ease-step-5),
+  elastic-1: var(--ease-elastic-1),
+  elastic-2: var(--ease-elastic-2),
+  elastic-3: var(--ease-elastic-3),
+  elastic-4: var(--ease-elastic-4),
+  elastic-5: var(--ease-elastic-5),
+  squish-1: var(--ease-squish-1),
+  squish-2: var(--ease-squish-2),
+  squish-3: var(--ease-squish-3),
+  squish-4: var(--ease-squish-4),
+  squish-5: var(--ease-squish-5),
+  spring-1: var(--ease-spring-1),
+  spring-2: var(--ease-spring-2),
+  spring-3: var(--ease-spring-3),
+  spring-4: var(--ease-spring-4),
+  spring-5: var(--ease-spring-5),
+  bounce-1: var(--ease-bounce-1),
+  bounce-2: var(--ease-bounce-2),
+  bounce-3: var(--ease-bounce-3),
+  bounce-4: var(--ease-bounce-4),
+  bounce-5: var(--ease-bounce-5),
+);
+
+
+// Easing
+$ease-1: var(--ease-1);
+$ease-2: var(--ease-2);
+$ease-3: var(--ease-3);
+$ease-4: var(--ease-4);
+$ease-5: var(--ease-5);
+
+// Easing In
+$ease-in-1: var(--ease-in-1);
+$ease-in-2: var(--ease-in-2);
+$ease-in-3: var(--ease-in-3);
+$ease-in-4: var(--ease-in-4);
+$ease-in-5: var(--ease-in-5);
+
+// Easing Out
+$ease-out-1: var(--ease-out-1);
+$ease-out-2: var(--ease-out-2);
+$ease-out-3: var(--ease-out-3);
+$ease-out-4: var(--ease-out-4);
+$ease-out-5: var(--ease-out-5);
+
+// Easing In-Out
+$ease-in-out-1: var(--ease-in-out-1);
+$ease-in-out-2: var(--ease-in-out-2);
+$ease-in-out-3: var(--ease-in-out-3);
+$ease-in-out-4: var(--ease-in-out-4);
+$ease-in-out-5: var(--ease-in-out-5);
+
+// Easing Elastic Out
+$ease-elastic-out-1: var(--ease-elastic-out-1);
+$ease-elastic-out-2: var(--ease-elastic-out-2);
+$ease-elastic-out-3: var(--ease-elastic-out-3);
+$ease-elastic-out-4: var(--ease-elastic-out-4);
+$ease-elastic-out-5: var(--ease-elastic-out-5);
+
+// Easing Elastic In
+$ease-elastic-in-1: var(--ease-elastic-in-1);
+$ease-elastic-in-2: var(--ease-elastic-in-2);
+$ease-elastic-in-3: var(--ease-elastic-in-3);
+$ease-elastic-in-4: var(--ease-elastic-in-4);
+$ease-elastic-in-5: var(--ease-elastic-in-5);
+
+// Easing Elastic In-Out
+$ease-elastic-in-out-1: var(--ease-elastic-in-out-1);
+$ease-elastic-in-out-2: var(--ease-elastic-in-out-2);
+$ease-elastic-in-out-3: var(--ease-elastic-in-out-3);
+$ease-elastic-in-out-4: var(--ease-elastic-in-out-4);
+$ease-elastic-in-out-5: var(--ease-elastic-in-out-5);
+
+// Easing Step
+$ease-step-1: var(--ease-step-1);
+$ease-step-2: var(--ease-step-2);
+$ease-step-3: var(--ease-step-3);
+$ease-step-4: var(--ease-step-4);
+$ease-step-5: var(--ease-step-5);
+
+// Easing Elastic
+$ease-elastic-1: var(--ease-elastic-1);
+$ease-elastic-2: var(--ease-elastic-2);
+$ease-elastic-3: var(--ease-elastic-3);
+$ease-elastic-4: var(--ease-elastic-4);
+$ease-elastic-5: var(--ease-elastic-5);
+
+// Easing Squish
+$ease-squish-1: var(--ease-squish-1);
+$ease-squish-2: var(--ease-squish-2);
+$ease-squish-3: var(--ease-squish-3);
+$ease-squish-4: var(--ease-squish-4);
+$ease-squish-5: var(--ease-squish-5);
+
+// Easing Spring
+$ease-spring-1: var(--ease-spring-1);
+$ease-spring-2: var(--ease-spring-2);
+$ease-spring-3: var(--ease-spring-3);
+$ease-spring-4: var(--ease-spring-4);
+$ease-spring-5: var(--ease-spring-5);
+
+// Easing Bounce
+$ease-bounce-1: var(--ease-bounce-1);
+$ease-bounce-2: var(--ease-bounce-2);
+$ease-bounce-3: var(--ease-bounce-3);
+$ease-bounce-4: var(--ease-bounce-4);
+$ease-bounce-5: var(--ease-bounce-5);

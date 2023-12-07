@@ -1,0 +1,16 @@
+$aspect-ratios: (
+  square: var(--ratio-square),
+  landscape: var(--ratio-landscape),
+  portrait: var(--ratio-portrait),
+  widescreen: var(--ratio-widescreen),
+  ultrawide: var(--ratio-ultrawide),
+  golden: var(--ratio-golden),
+);
+
+/* Aspect Ratio */
+$aspect-square: var(--ratio-square);
+$aspect-landscape: var(--ratio-landscape);
+$aspect-portrait: var(--ratio-portrait);
+$aspect-widescreen: var(--ratio-widescreen);
+$aspect-ultrawide: var(--ratio-ultrawide);
+$aspect-golden: var(--ratio-golden);

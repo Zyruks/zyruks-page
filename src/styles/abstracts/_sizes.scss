@@ -1,0 +1,127 @@
+// for creating utility classes
+$sizes: (
+  '000': var(--size-000),
+  '00': var(--size-00),
+  1: var(--size-1),
+  2: var(--size-2),
+  3: var(--size-3),
+  4: var(--size-4),
+  5: var(--size-5),
+  6: var(--size-6),
+  7: var(--size-7),
+  8: var(--size-8),
+  9: var(--size-9),
+  10: var(--size-10),
+  11: var(--size-11),
+  12: var(--size-12),
+  13: var(--size-13),
+  14: var(--size-14),
+  15: var(--size-15),
+);
+$fluid-sizes: (
+  1: var(--size-fluid-1),
+  2: var(--size-fluid-2),
+  3: var(--size-fluid-3),
+  4: var(--size-fluid-4),
+  5: var(--size-fluid-5),
+  6: var(--size-fluid-6),
+  7: var(--size-fluid-7),
+  8: var(--size-fluid-8),
+  9: var(--size-fluid-9),
+  10: var(--size-fluid-10),
+);
+$relative-sizes: (
+  '000': var(--size-relative-000),
+  '00': var(--size-relative-00),
+  1: var(--size-relative-1),
+  2: var(--size-relative-2),
+  3: var(--size-relative-3),
+  4: var(--size-relative-4),
+  5: var(--size-relative-5),
+  6: var(--size-relative-6),
+  7: var(--size-relative-7),
+  8: var(--size-relative-8),
+  9: var(--size-relative-9),
+  10: var(--size-relative-10),
+  11: var(--size-relative-11),
+  12: var(--size-relative-12),
+  13: var(--size-relative-13),
+  14: var(--size-relative-14),
+  15: var(--size-relative-15),
+);
+$breakpoint-sizes: (
+  xxs: var(--size-xxs),
+  xs: var(--size-xs),
+  sm: var(--size-sm),
+  md: var(--size-md),
+  lg: var(--size-lg),
+  xl: var(--size-xl),
+  xxl: var(--size-xxl),
+);
+
+// SASS variables
+$size-000: var(--size-000);
+$size-00: var(--size-00);
+$size-1: var(--size-1);
+$size-2: var(--size-2);
+$size-3: var(--size-3);
+$size-4: var(--size-4);
+$size-5: var(--size-5);
+$size-6: var(--size-6);
+$size-7: var(--size-7);
+$size-8: var(--size-8);
+$size-9: var(--size-9);
+$size-10: var(--size-10);
+$size-11: var(--size-11);
+$size-12: var(--size-12);
+$size-13: var(--size-13);
+$size-14: var(--size-14);
+$size-15: var(--size-15);
+
+// Fluid sizes
+$size-fluid-1: var(--size-fluid-1);
+$size-fluid-2: var(--size-fluid-2);
+$size-fluid-3: var(--size-fluid-3);
+$size-fluid-4: var(--size-fluid-4);
+$size-fluid-5: var(--size-fluid-5);
+$size-fluid-6: var(--size-fluid-6);
+$size-fluid-7: var(--size-fluid-7);
+$size-fluid-8: var(--size-fluid-8);
+$size-fluid-9: var(--size-fluid-9);
+$size-fluid-10: var(--size-fluid-10);
+
+// Content and header sizes
+$size-content-1: var(--size-content-1);
+$size-content-2: var(--size-content-2);
+$size-content-3: var(--size-content-3);
+$size-header-1: var(--size-header-1);
+$size-header-2: var(--size-header-2);
+$size-header-3: var(--size-header-3);
+
+// Breakpoints
+$size-xxs: var(--size-xxs);
+$size-xs: var(--size-xs);
+$size-sm: var(--size-sm);
+$size-md: var(--size-md);
+$size-lg: var(--size-lg);
+$size-xl: var(--size-xl);
+$size-xxl: var(--size-xxl);
+
+// Relative sizes
+$size-relative-000: var(--size-relative-000);
+$size-relative-00: var(--size-relative-00);
+$size-relative-1: var(--size-relative-1);
+$size-relative-2: var(--size-relative-2);
+$size-relative-3: var(--size-relative-3);
+$size-relative-4: var(--size-relative-4);
+$size-relative-5: var(--size-relative-5);
+$size-relative-6: var(--size-relative-6);
+$size-relative-7: var(--size-relative-7);
+$size-relative-8: var(--size-relative-8);
+$size-relative-9: var(--size-relative-9);
+$size-relative-10: var(--size-relative-10);
+$size-relative-11: var(--size-relative-11);
+$size-relative-12: var(--size-relative-12);
+$size-relative-13: var(--size-relative-13);
+$size-relative-14: var(--size-relative-14);
+$size-relative-15: var(--size-relative-15);
